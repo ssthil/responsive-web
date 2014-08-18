@@ -1,0 +1,37 @@
+
+.form{
+width:250px;
+float:left;
+padding-top: 9px;
+}
+.dropdown-menu>li>a {
+padding: 3px 12px;
+}
+.dropdown-menu>li .glyphicon{
+padding:0 10px 0 0;
+}
+#myCarousel{
+margin:52px 0 0 0;
+height:500px;
+}
+.carousel .item {
+height: 500px;
+background-color: #777;
+}
+.html{
+	background-image:url('../img/html5-L.jpg');
+}
+.css{
+	background-image:url('../img/css3-L.jpg');
+}
+.jquery{
+	background-image:url('../img/jquery-L.jpg');
+}
+.flatui{
+	background-image:url('../img/flatui-L.jpg');
+}
+.fill{
+	background-size:cover;
+	background-position:center center;
+width:100%;height:100%;
+}

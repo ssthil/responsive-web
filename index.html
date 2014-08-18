@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Responsive Web Design</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top"> 
+	<div class="container">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="/">Javascript</a>
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+			<div class="form input-group">
+				<input type="text" class="form-control">
+				<div class="input-group-btn">
+					<button class="btn btn-success"><i class="glyphicon glyphicon-search"></i></button>
+				</div>
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">My Account
+					<strong class="caret"></strong>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="#"><span class="glyphicon glyphicon-cog"></span> Action</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div><!-- end navbar -->
+<div class="carousel slide" id="myCarousel" data-ride="carousel">
+	<ol class="carousel-indicators">
+		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		<li data-target="#myCarousel" data-slide-to="1"></li>
+		<li data-target="#myCarousel" data-slide-to="2"></li>
+		<li data-target="#myCarousel" data-slide-to="3"></li>
+	</ol>
+	<div class="carousel-inner">
+		<div class="item active">
+			<div class="fill html"></div>
+			<div class="container">
+				<div class="carousel-caption">
+					<h1>Example headline</h1>
+					<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+				</div><!-- end caption -->	
+			</div>
+		</div><!-- end item 1-->	
+		<div class="item">
+			<div class="fill css"></div>
+			<div class="container">
+				<div class="carousel-caption">
+					<h1>CSS 3 - Next Generation</h1>
+					<p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+				</div><!-- end caption -->	
+			</div>
+		</div><!-- end item 2 -->	
+		<div class="item">
+			<div class="fill jquery"></div>
+			<div class="container">
+				<div class="carousel-caption">
+					<h1>Jquery - do more, less write</h1>
+					<p>all the elements you might need to create a flat UI design website. You can easily modify the design to make it your own and help you get your project running faster.</p>
+				</div><!-- end caption -->	
+			</div>
+		</div><!-- end item 3 -->	
+		<div class="item">
+			<div class="fill flatui"></div>
+			<div class="container">
+				<div class="carousel-caption">
+					<h1>Flat UI Trend</h1>
+					<p>All the elements you might need to create a flat UI design website. You can easily modify the design to make it your own and help you get your project running faster.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><!-- end carousel -->
+<div id="feature">
+	<div class="container">
+		<div class="row">
+		
+			<div class="col-lg-4 col-md-4">
+				<h2>First featurette heading.</h2>
+				<p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+				<p><a class="btn btn-default">View Details</a></p>
+			</div>
+			<div class="col-lg-4 col-md-4">
+				<h2>Second featurette heading.</h2>
+				<p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+				<p><a class="btn btn-default">View Details</a></p>
+			</div>
+			<div class="col-lg-4 col-md-4">
+				<h2>Third featurette heading.</h2>
+				<p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+				<p><a class="btn btn-default">View Details</a></p>
+			</div>
+		</div>
+		<hr class="divider"/>
+	</div>
+</div><!-- end features-->
+
+<div id="service">
+	<div class="container">
+		<div class="col-md-7">
+			<h3>First featurette heading. It'll blow your mind.</h3>
+			<p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+		</div>
+		<div class="col-md-5">
+			<img class="img-responsive" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjI1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjMxcHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NTAweDUwMDwvdGV4dD48L3N2Zz4=" alt="">
+		</div>
+	</div><!-- end service -->
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
